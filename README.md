@@ -69,7 +69,7 @@ modules: [
           }
         },
         // The following options are optional:
-        useOnly: ['auth','firestore','functions','storage','realtimeDb', 'messaging', 'performance', 'analytics],
+        useOnly: ['auth','firestore','functions','storage','realtimeDb', 'messaging', 'performance', 'analytics'],
         customEnv: false,
         functionsLocation: 'us-central1',
       }
@@ -131,9 +131,10 @@ By default, all supported Firebase products are loaded. If you only wish to load
 
 #### config[environment]
 
-Your firebase config snippet. You can retrieve this information from your Firebase project's overview page:
+-
+firebase config snippet. You can retrieve this information from your Firebase project's overview page:
 
-`https://console.firebase.google.com/project/your-project-id/overview`
+`https://console.firebase.google.com/project/<your-project-id>/overview`
 
 ```js
 {
